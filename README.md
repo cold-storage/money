@@ -1,14 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
 Create Database
 
     drop database if exists money;
