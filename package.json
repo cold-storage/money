@@ -1,0 +1,32 @@
+{
+  "name": "money",
+  "version": "0.0.0",
+  "description": "Manage your money",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johndstein/money"
+  },
+  "keywords": [
+    "money",
+    "manage",
+    "finance",
+    "budget"
+  ],
+  "author": "John Stein",
+  "bugs": {
+    "url": "https://github.com/johndstein/money/issues"
+  },
+  "dependencies": {
+    "sequelize": "~1.7.5",
+    "mysql": "~2.3.2",
+    "event-stream": "~3.1.5"
+  },
+  "devDependencies": {
+    "mocha": "~1.20.0",
+    "chai": "~1.9.1"
+  }
+}
