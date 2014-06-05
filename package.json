@@ -2,7 +2,7 @@
   "name": "money",
   "version": "0.0.0",
   "description": "Manage your money",
-  "main": "index.js",
+  "main": "lib/money.js",
   "scripts": {
     "test": "mocha --recursive --reporter spec -t 5000"
   },
@@ -24,7 +24,8 @@
     "sequelize": "~1.7.5",
     "mysql": "~2.3.2",
     "event-stream": "~3.1.5",
-    "node-uuid": "~1.4.1"
+    "node-uuid": "~1.4.1",
+    "bluebird": "~2.0.2"
   },
   "devDependencies": {
     "mocha": "~1.20.0",

@@ -1,6 +1,4 @@
-var mintParser = require('../lib/mintParser');
-var es = require('event-stream');
-var fs = require('fs');
+var parser = require('../lib/parser');
 var a = require('chai').assert;
 
 var tranArray = [
@@ -9,14 +7,14 @@ var tranArray = [
   '"11/14/2010","Stauffer Outlets","STAUFFER\'S OUTLETS","6.49","debit","Uncategorized","CREDIT CARD","",""\n'
 ];
 
-describe('mintParser tests', function() {
+describe('parser tests', function() {
   it('will', function() {
-    var trans = [];
-    mintParser.parse(es.readArray(tranArray), function(tran) {
-      trans.push(tran);
-    }, function() {
-      // TODO XXX broken
-      a(trans[0].description !== 'Gospel For Asia Carrollton TX');
-    });
+    var tran = parser.tranFromMintLine(tranArray[0]);
+    a(!tran);
+    tran = parser.tranFromMintLine(tranArray[1]);
+    a(tran.date.valueOf() === new Date("5/26/2014").valueOf());
+    a(tran.description === "Gospel For Asia Carrollton TX");
+    a(tran.amount === -100);
+    a(tran.accountName === "Citi MasterCard");
   });
 });

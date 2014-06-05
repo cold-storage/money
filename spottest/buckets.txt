@@ -1,0 +1,68 @@
+100| nul| Home
+101| 100| Mortgage/Rent, Taxes & Insurance
+102| 100| Maintenance & Repairs
+103| 100| Improvements
+104| 100| Furnishings
+105| 100| Utilities
+
+200| nul| Food, Clothing & Physical Needs
+201| 200| Grocery
+202| 200| Eating Out
+203| 200| Clothing
+204| 200| Personal Care
+205| 200| Medical Insurance
+206| 200| Doctor Visits & Fees
+207| 200| Drugs
+208| 200| Eye Doctor Visits & Fees
+209| 200| Dental Work & Fees
+
+300| nul| Auto & Transportation
+301| 300| Insurance
+302| 300| Buy, Sell & Payments
+303| 300| Gas
+304| 300| Parts & Service
+305| 300| Other
+
+400| nul| Giving & Helping
+401| 400| Church & Missions
+402| 400| Wedding, Christmas, & Birthday
+403| 400| Other
+404| 400| Stupid Fundraisers
+
+500| nul| Vacation, Leisure & Entertaiment
+501| 500| Food
+502| 500| Lodging
+503| 500| Travel
+504| 500| Music, Movies, Books & Boogie Boards
+
+600| nul| Daughters Weddings
+601| 600| Mary
+602| 600| Bethany
+
+700| nul| Technology & Communication
+701| 700| Computer, Phone & Printer Purchases
+702| 700| Phone & Internet Access
+703| 700| Phone Reimbursable
+704| 700| Office Supplies
+705| 700| Dan Servers & Domain Names
+
+800| nul| School
+801| 800| Tuition, Books & Fees
+
+900| nul| Transfer
+901| 900| Account to Account
+902| 900| ATM / Cash
+903| 900| Retirement Savings
+904| 900| Wedding Savings
+905| 900| Emergency Savings
+906| 900| Auto Savings
+
+1000| nul|  Reimbursable
+1001| 1000| Realtor
+1002| 1000| 935 Maytown Rd
+1003| 1000| Dan Business Trips, Books, etc
+1004| 1000| Sara
+1005| 1000| Nikki
+1006| 1000| Mary
+1007| 1000| Jesse
+1008| 1000| Bethany

@@ -22,10 +22,10 @@ before(function(next) {
     });
 });
 
-describe('importMint test', function() {
+describe('importBuckets test', function() {
   it('will . . .', function(done) {
-    money.importMintTransactions(fs.createReadStream(
-      'private/transactions.csv'))
+    money.importBuckets(fs.createReadStream(
+      'spottest/buckets.txt'))
       .then(function() {
         done();
       })
